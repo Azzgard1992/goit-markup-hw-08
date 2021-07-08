@@ -1,18 +1,16 @@
 .modal-form {
-  width: 448px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 40px;
 }
 .modal-form__title {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 0;;
   margin-bottom: 12px;
 
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
 
-  color: secondary-text-color;
+  color: $secondary-text-color;
 }
 
 .modal-form__field {
@@ -82,9 +80,11 @@
   }
 }
 .modal-form__check {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   margin-bottom: 30px;
+
+  font-size: 12px;
+  line-height: 1.17;
 }
 .modal-form__checkbox {
   position: absolute;
@@ -100,7 +100,6 @@
   display: inline-block;
   width: 16px;
   height: 15px;
-  margin-right: 8px;
 
   border: 2px solid $secondary-text-color;
   border-radius: 1px;
@@ -114,7 +113,6 @@
 }
 .modal-form__link {
   color: $accent-color;
-  margin-left: 4px;
 }
 .modal-form__btn {
   display: block;
