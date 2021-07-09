@@ -409,6 +409,12 @@ body {
   background-color: #ffffff;
 }
 
+@media screen and (max-width: 479px) {
+  .mobail-menu {
+    padding: 48px 15px;
+  }
+}
+
 .mobail-menu.is-open {
   display: block;
 }
@@ -439,6 +445,12 @@ body {
 
 .site-nav {
   margin-bottom: 302px;
+}
+
+@media screen and (max-width: 479px) {
+  .site-nav {
+    margin-bottom: 250px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -578,6 +590,12 @@ body {
   color: #2196f3;
 }
 
+@media screen and (max-width: 479px) {
+  .info-nav__link--tel {
+    font-size: 9vw;
+  }
+}
+
 .info-nav__link--mail {
   font-size: 24px;
   line-height: 1.17;
@@ -636,6 +654,12 @@ body {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 479px) {
+  .social-nav {
+    font-size: 4vw;
+  }
 }
 
 .social-nav__item {
@@ -973,7 +997,12 @@ body {
 
 .team__img {
   width: 450px;
-  height: 460px;
+}
+
+@media screen and (min-width: 480px) {
+  .team__img {
+    height: 622px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -993,6 +1022,12 @@ body {
 .team__block {
   padding: 30px 122px 24px 122px;
   text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .team__block {
+    padding: 30px 50px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1063,6 +1098,14 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: -15px;
+}
+
+@media screen and (max-width: 479px) {
+  .clients {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {

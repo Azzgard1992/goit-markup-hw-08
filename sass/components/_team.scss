@@ -36,7 +36,10 @@
 }
 .team__img {
   width: 450px;
-  height: 460px;
+
+  @media screen and (min-width: 480px) {
+    height: 622px;
+  }
 
   @media screen and (min-width: 768px) {
     width: 354px;
@@ -52,6 +55,9 @@
   padding: 30px 122px 24px 122px;
 
   text-align: center;
+  @media screen and (max-width: 479px) {
+    padding: 30px 50px;
+  }
 
   @media screen and (min-width: 768px) {
     padding: 30px 74px 24px 74px;

@@ -62,7 +62,9 @@
   letter-spacing: 0.02em;
 
   background-color: $white-color;
-
+  @media screen and (max-width: 479px) {
+    padding: 48px 15px;
+  }
   &.is-open {
     display: block;
     @media screen and (min-width: 768px) {
@@ -83,6 +85,9 @@
 }
 .site-nav {
   margin-bottom: 302px;
+  @media screen and (max-width: 479px) {
+    margin-bottom: 250px;
+  }
   @media screen and (min-width: 768px) {
     display: flex;
     margin: 0;
@@ -178,6 +183,10 @@
   line-height: 1.18;
 
   color: $accent-color;
+
+  @media screen and (max-width: 479px) {
+    font-size: 9vw;
+  }
 }
 .info-nav__link--mail {
   font-size: 24px;
@@ -230,6 +239,9 @@
   line-height: 1.22;
   letter-spacing: 0.02em;
 
+  @media screen and (max-width: 479px) {
+    font-size: 4vw;
+  }
   &__item {
     padding: 0 10px;
   }
