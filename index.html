@@ -18,17 +18,24 @@
         <a href="/" class="logo logo--padding"><span class="logo__accent">Web</span>Studio</a>
         <button
           type="button"
-          class="menu-btn is-open"
+          class="menu-btn"
           aria-expanded="false"
           aria-controls="mobail-menu"
           data-menu-button
         >
-          <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+          <svg
+            class="menu-btn__btn-close"
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
+          >
             <use class="menu-btn__icon-close" href="./images/icons.svg#close-menu"></use>
+          </svg>
+          <svg width="40" height="40" aria-label="Переключатель мобильного меню">
             <use class="menu-btn__icon-menu" href="./images/icons.svg#menu"></use>
           </svg>
         </button>
-        <div class="mobail-menu is-open" id="mobail-menu" data-menu>
+        <div class="mobail-menu" id="mobail-menu" data-menu>
           <ul class="site-nav">
             <li class="site-nav__item">
               <a href="" class="site-nav__link site-nav__link--current">Студия</a>

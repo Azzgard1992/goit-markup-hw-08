@@ -11,9 +11,6 @@
 }
 
 .menu-btn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
   z-index: 2;
 
   display: inline-block;
@@ -23,6 +20,13 @@
   border: none;
   background-color: transparent;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__btn-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+
   &__icon-close,
   &__icon-menu {
     fill: currentColor;
